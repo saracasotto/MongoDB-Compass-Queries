@@ -9,8 +9,8 @@
 **Query:** `{ "age": { "$gt": 26, "$lte": 19 } }`  
 **Numero dei risultati:** 14
 
-**Query:** `{ "eyeColor": { "$in": ["green", "blue"] } }`  
-**Numero dei risultati:** 62
+**Query:** `{ "eyeColor": { "$in": ["brown", "blue"] } }`  
+**Numero dei risultati:** 66
 
 **Query:** `{ "eyeColor": { "$ne": "green" } }`  
 **Numero dei risultati:** 66
