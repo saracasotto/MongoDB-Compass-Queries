@@ -6,7 +6,7 @@
 **Query:** `{ "age": { "$gt": 26 } }`  
 **Numero dei risultati:** 54
 
-**Query:** `{ "age": { "$gt": 26, "$lt": 30 } }`  
+**Query:** `{ "age": { "$gt": 26, "$lte": 19 } }`  
 **Numero dei risultati:** 14
 
 **Query:** `{ "eyeColor": { "$in": ["green", "blue"] } }`  
