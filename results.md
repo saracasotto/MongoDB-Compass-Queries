@@ -1,7 +1,6 @@
 # Risultati della Query: 
 
 
-```json
 { "isActive": true } 
 
 **Numero dei risultati:**
@@ -9,7 +8,6 @@
 
 
 
-```json
 { "age": { "$gt": 26 } }
 
 **Numero dei risultati:**
@@ -17,7 +15,6 @@
 
 
 
-```json
 { "age": { "$gt": 26, "$lt": 30 } }
 
 **Numero dei risultati:**
@@ -25,21 +22,18 @@
 
 
 
-```json
 { "eyeColor": { "$in": ["green", "blue"] } }
 
 **Numero dei risultati:**
 62
 
 
-```json
 { "eyeColor": { "$ne": "green" } }
 
 **Numero dei risultati:**
 66
 
 
-```json
 { "eyeColor": { "$nin": ["green", "blue"] } }
 
 **Numero dei risultati:**
@@ -47,7 +41,6 @@
 
 
 
-```json
 { "company": "FITCORE" }
 
 **Email ritultato:**
